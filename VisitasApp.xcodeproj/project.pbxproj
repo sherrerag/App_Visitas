@@ -1,0 +1,51 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+
+    /* Begin PBXBuildFile section */
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    000000000000000000000000 /* VisitasApp */ = { isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "VisitasApp.xcodeproj"; sourceTree = "<group>"; };
+    a1B2C3D4E5F6000000000001 /* VisitasAppApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisitasApp/VisitasAppApp.swift"; sourceTree = "<group>"; };
+    a1B2C3D4E5F6000000000002 /* PersistenceController.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisitasApp/PersistenceController.swift"; sourceTree = "<group>"; };
+  /* End PBXFileReference section */
+
+    /* Begin PBXGroup section */
+    000000000000000000000001 = {
+      isa = PBXGroup;
+      children = (
+        a1B2C3D4E5F6000000000001,
+        a1B2C3D4E5F6000000000002,
+      );
+      sourceTree = "<group>";
+      path = "";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXProject section */
+    000000000000000000000002 = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1300;
+      };
+      buildConfigurationList = 000000000000000000000003;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = English;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 000000000000000000000001;
+      productRefGroup = 000000000000000000000004;
+      projectDirPath = "";
+      projectRoot = "";
+    };
+    /* End PBXProject section */
+
+  };
+  rootObject = 000000000000000000000002;
+}
