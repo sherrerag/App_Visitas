@@ -1,0 +1,19 @@
+      # 4️⃣ Generar IPA (manual run)
+      - name: Build IPA
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          gem install fastlane
+          fastlane gym \
+            --workspace "TuProyecto.xcworkspace" \
+            --scheme "TuEsquema" \
+            --export_method ad-hoc \
+            --output_directory ./build \
+            --output_name GestionVisitas.ipa
+
+      # 5️⃣ Guardar IPA como artifact
+      - name: Upload IPA
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v3
+        with:
+          name: GestionVisitas-IPA
+          path: ./build/GestionVisitas.ipa
